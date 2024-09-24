@@ -699,6 +699,8 @@ in any way.")
 MODE-NAME is typically a major-mode symbol."
   (cond
    ((eq mode-sym 'enh-ruby-mode) "ruby")
+   ((eq mode-sym 'sh-mode) "shell")
+   ((eq mode-sym 'yaml-mode) "yaml")
    ((eq mode-sym 'js2-mode) "js")
    ((eq mode-sym 'scad-mode) "openscad")
    (t
